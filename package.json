@@ -1,0 +1,29 @@
+{
+  "name": "CoinLook-main",
+  "version": "1.0.0",
+  "description": "The discovery and invention of blockchain technology could wind up as one of the most impactful events in technology since the introduction of the internet. For my project, I plan to create a cryptocurrency data visualization app. The app allows the user to specify specific coins as well as buy and sell dates to see how much they would have made had they bought and sold at that time. The app will show a data time lapse in order to see the change in price over time in the form of an interactive bar chart. Users will also be able to hover over specific time frames to access information and pertinent data. This will all be done  using D3 and the CoinGecko API.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "core-js": "^3.21.1",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
