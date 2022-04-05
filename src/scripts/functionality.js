@@ -1,15 +1,14 @@
-class Example {
-    constructor(ele){
-        this.ele = ele
-        this.ele.innerHTML = "<h1>It's ALIVE!!!</h1>"
+// class Coin {
+//     constructor(name, buyDate, sellDate, vsCurrency = usd) {
+//         this.name = name;
+//         this.vsCurrency = vsCurrency;
+//         this.buyDate = buyDate;
+//         this.sellDate = sellDate;
+//     }
+// }
 
-        this.handleClick = this.handleClick.bind(this)
-        this.ele.addEventListener("click", this.handleClick)
-    }
+//export default Coin;
 
-    handleClick(){
-        this.ele.children[0].innerText = "Ouch!"
-    }
-}
+// class Example {} from the lecture if I need
+// do I need a handle click event listener and handle click button like below??
 
-export default Example;
