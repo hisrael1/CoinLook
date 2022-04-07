@@ -6,32 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <!-- google fonts -->
-    <!-- favicons -->
-    <!-- bundle javascript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="./dist/main.js"></script>
-    <title>CoinLook</title>
 </head>
 
 <body>
     <main id="main">
-        Crypto Time Lapse Price Change
+        <h1 id="title">CoinLook</h1>
+        <div class="side-menu">
+            <br>
+            <br>
+            <br>
+            <p id="user-input">Enter a Coin Name, <br> Buy Date, and Sell date: <p>
+                <hr class="solid">
+                <br>
+                <div class="name">
+                    <label for="coin">Coin Name: (lowercase)</label>
+                    <input id="name" type="text" name="coin">
+                </div>
+
+                <hr class="solid">
+
+                <div class="buy">
+                    <label for="buyDate">Buy Date: ex: 06.20.21</label>
+                    <input id="buyDate" type="text" name="buyDate">
+                </div>
+
+                <br>
+                <hr class="solid">
+
+                <div class="sell">
+                    <label for="sellDate">Sell Date: </label>
+                    <input id="sellDate" type="text" name="sellDate">
+                </div>
+                <hr class="solid">
+                
+                <div class="submit">
+                    <input type="submit" class="submit-button">
+                </div>
+        </div>
     </main>
 
-   <div>
-        <label for="coin">Coin Name: </label>
-        <br>
-        <input id="name" type="text" name="coin">
-        <br>
-        <label for="buyDate">Buy Date: ex: 06.20.21</label>
-        <br>
-        <input id="buyDate" type="text" name="buyDate">
-        <br>
-        <label for="sellDate">Sell Date: </label>
-        <br>
-        <input id="sellDate" type="text" name="sellDate">
-        <br>
-        <input type="submit" class="submit-button">
-   </div>
+    <div class="prices">
+      <h3>Scatter Plot</h3>
+    </div>
+
 </body>
 </html>
