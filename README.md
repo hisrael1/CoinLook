@@ -1,3 +1,5 @@
+# Live Demo
+https://hisrael1.github.io/CoinLook/
 # Sample JS Project Proposal: CoinLook
 ## Background
 The discovery and invention of blockchain technology could wind up as one of the most impactful events in technology since the introduction of the internet. For my project, I plan to create a cryptocurrency data visualization app. The app allows the user to specify specific coins as well as buy and sell dates to see how much they would have made had they bought and sold at that time. The app will show a data time lapse in order to see the change in price over time in the form of an interactive bar chart. Users will also be able to hover over specific time frames to access information and pertinent data. This will all be done  using D3 and the CoinGecko API.
